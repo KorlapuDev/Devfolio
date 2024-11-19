@@ -1,13 +1,17 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React from "react";
 
 const HeroSection = () => {
   return (
     <Box
       bgcolor="black"
-      sx={{ backgroundImage: `url('/wavesandcruves/waveheroSection.png')` }}
+      sx={{
+        backgroundImage: `url('/wavesandcruves/waveheroSection.png')`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "contain",
+      }}
     >
-      Hello
+      <Typography color="white">Hello</Typography>
     </Box>
   );
 };
