@@ -1,14 +1,12 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 
-const HeroSection = () => {
+const HeroSectionLanding = () => {
   return (
     <Box
       bgcolor="black"
       sx={{
-        backgroundImage: `url('/wavesandcruves/waveheroSection.png')`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "contain",
+        backgroundColor: "black",
       }}
     >
       <Typography color="white">Hello</Typography>
@@ -16,4 +14,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
+export default HeroSectionLanding;
