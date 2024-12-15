@@ -30,11 +30,5 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-.env.sample
-
-.eslintrc
-
 # vercel
 .vercel
-.prettierrc
-
