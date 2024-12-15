@@ -1,3 +1,6 @@
 module.exports = {
-  reactStrictMode: true,
+  swcMinify: false, // Disable SWC minification
+  experimental: {
+    swcTracePropagation: false, // Experimental
+  },
 }
