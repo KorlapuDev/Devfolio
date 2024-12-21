@@ -115,7 +115,7 @@ const Sidebar = () => {
               {' '}
               Thank you!
             </Text>
-            <br />I am software engineer or you can say FulllStack Developer that specializes at backend apis, Developing frontend and integration, recently found myself studying about <Text variant="emphasis" as="span">Data Scince and AI</Text> too.
+            <br />I am software engineer or you can say FulllStack Developer that specializes at backend apis, Developing frontend and integration, recently found myself studying about <Text variant="emphasis" as="span">Cyber Security and Data science AI</Text> too.
           </MotionText>
           <MotionButton
             size="lg"

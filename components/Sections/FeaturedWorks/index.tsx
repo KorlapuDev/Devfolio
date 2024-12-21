@@ -45,8 +45,7 @@ const FeaturedWorksSection = () => {
             idx={1}
             title="CRM"
             src="/works/crm-prj1.png"
-            description="Japanese social media platform for travelers to show off their
-          adventure to the world. I was incharge of Front end integration, made using React, Antd and Styled Components."
+            description="The CRM I developed allows users to register as service providers, enabling them to offer a variety of services. Other users can seamlessly browse, purchase, and utilize these services through the platform. Built with Express for a scalable backend and React for an intuitive frontend, it ensures a smooth user experience. Deployed on a VPS with Nginx, the system delivers reliable performance and is designed to cater to dynamic marketplace needs."
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://tobira-app-test.netlify.app/"
             objectPosition="right 20%"
@@ -70,7 +69,7 @@ const FeaturedWorksSection = () => {
           <FeaturedCard
             idx={3}
             title="Transaction Mining "
-            description="A quizz - reviewer LMS, I made as a freelancer. Backend were powered by PHPSlim and VueJS for Front end."
+            description="The Transaction Mining application my team developed efficiently processes bank transaction statements, extracting valuable insights and results. Powered by a FastAPI backend API, the application ensures high-speed data mining and analysis, making it an invaluable tool for financial data processing and reporting. Its streamlined architecture enables quick integration and scalability to meet diverse business requirements."
             src="/works/transaction-mining.jpg"
             height={{ base: '130px', md: '225px', '2xl': '300px' }}
             ctaUrl="https://dev.agora-school.com"
